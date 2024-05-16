@@ -1,4 +1,4 @@
-import React from "react";
+import ServicesCard from "./partials/servicesCard";
 
 export default function Services() {
   return (
@@ -17,66 +17,7 @@ export default function Services() {
             </h2>
             <div className="title-underline"></div>
           </div>
-          <div className="services-content flex items-center justify-center flex-wrap">
-            <div className="item shadow-sm shadow-custom-blue  w-[200px] h-[350px] flex flex-col rounded-[10px] p-[10px] text-center mt-[2rem] mr-[2rem]">
-                <div className="logo-container w-[180pX] h-[180px] bg-custom-blue rounded-t-[10px] rounded-bl-[10px] rounded-br-[100px] flex items-center justify-center">
-                    <div className="logo">
-                        <img src="assets/images/services-logo-1.png" alt="logo" className="w-[80px]" />
-                    </div>
-                </div>
-                <div className="services-text-holder">
-                    <div className="services-title">
-                        <p className="text-[1.3rem] font-semibold text-[#595959] m-[10px]">Services</p>
-                    </div>
-                    <div className="services-description">
-                        <ul className="text-[.9rem] font-thin text-[#4f4f4f]">
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div className="item shadow-sm shadow-custom-marron  w-[200px] h-[350px] flex flex-col rounded-[10px] p-[10px] text-center mt-[2rem] mr-[2rem]">
-                <div className="logo-container w-[180pX] h-[180px] bg-custom-marron rounded-t-[10px] rounded-bl-[10px] rounded-br-[100px] flex items-center justify-center">
-                    <div className="logo">
-                        <img src="assets/images/services-logo-2.png" alt="logo" className="w-[80px]" />
-                    </div>
-                </div>
-                <div className="services-text-holder">
-                    <div className="services-title">
-                        <p className="text-[1.3rem] font-semibold text-[#595959] m-[10px]">Services</p>
-                    </div>
-                    <div className="services-description">
-                        <ul className="text-[.9rem] font-thin text-[#4f4f4f]">
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div className="item shadow-sm shadow-custom-fonceBlue  w-[200px] h-[350px] flex flex-col rounded-[10px] p-[10px] text-center mt-[2rem] mr-[2rem]">
-                <div className="logo-container w-[180pX] h-[180px] bg-custom-fonceBlue rounded-t-[10px] rounded-bl-[10px] rounded-br-[100px] flex items-center justify-center">
-                    <div className="logo">
-                        <img src="assets/images/services-logo-3.png" alt="logo" className="w-[80px]" />
-                    </div>
-                </div>
-                <div className="services-text-holder">
-                    <div className="services-title">
-                        <p className="text-[1.3rem] font-semibold text-[#595959] m-[10px]">Services</p>
-                    </div>
-                    <div className="services-description">
-                        <ul className="text-[.9rem] font-thin text-[#4f4f4f]">
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-          </div>
+          <ServicesCard />
         </div>
       </div>
     </div>

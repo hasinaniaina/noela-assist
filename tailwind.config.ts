@@ -80,8 +80,8 @@ const config = {
       fontSize: {
         titleH1: "2.5rem",
         titleH2: "2rem",
-        responsiveSmTitleH1: "1.1rem",
-        responsiveSmTitleH2: "1rem",
+        responsiveSmTitleH1: "2rem",
+        responsiveSmTitleH2: "1.5rem",
       },
       screens: {
         sm: "320px",

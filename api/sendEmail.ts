@@ -1,5 +1,5 @@
 
-interface dataInterface {
+export interface dataInterface {
     email: string,
     subject: string,
     message: string

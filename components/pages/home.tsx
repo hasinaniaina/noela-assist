@@ -1,6 +1,9 @@
 import Link from "next/link";
+import { useEffect } from "react";
+import { handleMessage } from "@/lib/utils";
 
 export default function Home() {
+
   return (
     <div className=" page content flex w-screen overflow-hidden md:flex-row sm:flex-col bg-[#fff] tracking-tighter" id="page-home">
       <div className="left-content md:w-1/4 h-screen relative sm:w-full">

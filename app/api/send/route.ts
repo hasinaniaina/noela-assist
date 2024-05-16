@@ -17,11 +17,11 @@ export async function POST(req: Request) {
     });
 
     if (error) {
-      return Response.json({success: false, message: error}, { status: 500 });
+      return Response.json({success: false,error: error}, { status: 500 });
     }
 
     return Response.json({success: true});
   } catch (error) {
-    return Response.json({success: false, message: error}, { status: 500 });
+    return Response.json({success: false, error: error}, { status: 500 });
   }
 }

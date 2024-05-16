@@ -4,7 +4,6 @@ import {
   faEnvelope,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { FormEvent } from "react";
 import ContactForm from "./partials/contactForm";
 
 export default function Contact() {
@@ -24,9 +23,9 @@ export default function Contact() {
             </h2>
             <div className="title-underline"></div>
           </div>
-          <div className="contact-content">
+          <div className="contact-content sm:overflow-y-scroll md:overflow-hidden">
             <ContactForm />
-            <div className="contact-info flex justify-center text-center mt-16">
+            <div className="contact-info flex justify-center text-center mt-16 md:flex-nowrap sm:flex-wrap">
               <div className="location w-64">
                 <div className="icon text-custom-marron m-4 text-[1.5rem]">
                   <FontAwesomeIcon icon={faLocation} />
