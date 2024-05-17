@@ -29,16 +29,16 @@ export default function About() {
             </p>
 
             <p className="text-paragraph-color mb-4 text-justify tracking-tighter">
-              Dotée d'une passion pour l'organisation et la communication, je
-              m'efforce de fournir un service personnalisé et de qualité
+              Dotée d&apos;une passion pour l&apos;organisation et la communication, je
+              m&apos;efforce de fournir un service personnalisé et de qualité
               supérieure à chacun de mes clients. Que ce soit en répondant à vos
               questions, en traitant vos demandes ou en gérant votre agenda, je
               suis là pour vous soutenir et vous aider à atteindre vos
               objectifs.
             </p>
             <p className="text-paragraph-color mb-4 text-justify tracking-tighter">
-              Grâce à mes compétences techniques et à ma capacité d'adaptation,
-              je suis en mesure de m'adapter à divers environnements
+              Grâce à mes compétences techniques et à ma capacité d&apos;adaptation,
+              je suis en mesure de m&apos;adapter à divers environnements
               professionnels et de répondre à une variété de besoins. Mon
               objectif est de vous libérer du stress lié à la gestion
               quotidienne afin que vous puissiez vous concentrer sur la
@@ -46,7 +46,7 @@ export default function About() {
               vraiment.
             </p>
             <p className="text-paragraph-color mb-4 text-justify tracking-tighter">
-              N'hésitez pas à explorer mon portfolio pour en savoir plus sur mes
+              N&apos;hésitez pas à explorer mon portfolio pour en savoir plus sur mes
               compétences et la manière dont je peux vous aider à optimiser
               votre temps et vos ressources. A bientôt.
             </p>
