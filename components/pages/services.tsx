@@ -13,7 +13,7 @@ export default function Services() {
         <div className="content flex flex-col justify-center h-screen p-10">
           <div className="section-title w-fit">
             <h2 className="text-titleH2 text-custom-blue font-bold inline-block tracking-[-3px]">
-              Que puis-je faire pour vous?
+              En quoi puis-je vous aider?
             </h2>
             <div className="title-underline"></div>
           </div>

@@ -39,7 +39,7 @@ export default function ContactForm() {
         errorMessage += issue.path[0] + "=> " + issue.message + ". ";
       });
 
-      handleMessage("Something went wrong", errorMessage, "destructive");
+      handleMessage("Ooops", errorMessage, "destructive");
       setIsSend(false);
       return;
     }

@@ -19,7 +19,7 @@ export default function Contact() {
         <div className="content flex flex-col justify-center h-screen p-10">
           <div className="section-title w-fit">
             <h2 className="text-titleH2 text-custom-blue font-bold inline-block tracking-[-3px]">
-              Qu'attendez-vous, Contacter-moi!
+              Qu'attendez-vous, Contactez-moi!
             </h2>
             <div className="title-underline"></div>
           </div>
@@ -39,7 +39,7 @@ export default function Contact() {
                   <FontAwesomeIcon icon={faPhone} />
                 </div>
                 <div className="text text-[#737373] tracking-tighter">
-                  <p>+261 34 28 210 75</p>
+                  <p>+261 32 86 715 32</p>
                 </div>
               </div>
               <div className="email w-64">

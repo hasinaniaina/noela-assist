@@ -11,6 +11,10 @@ html.js,
 /* Pages nav */
 
 .pages-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -415,14 +419,49 @@ input:-webkit-autofill:active {
   background-size: cover;
 }
 
-@media screen and (max-height: 726px) {
-  .contact-content, .services-content{
-	overflow-y: scroll!important;
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
   }
 }
 
-.embla__slide {
-  flex: 0 0 30%;
-  min-width: 0;
+.right-content {
+  background-image: url('/assets/images/lotus.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100px;
 }
+
+
+.embla {
+  max-width: 63rem;
+  margin-top: 3rem;
+  --slide-height: 19rem;
+  --slide-spacing: 1rem;
+  --slide-size: 50%;
+  border-radius: 10px;
+}
+
+@media screen and (max-height: 498px) {
+  .embla {
+    overflow-y: scroll;
+  }
+}
+
+.embla__container {
+  display: flex;
+  width: fit-content;
+  /* touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1); */
+}
+.embla__slide {
+  flex: 0 0 var(--slide-size);  
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}
+
+
 

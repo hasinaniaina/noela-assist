@@ -4,7 +4,6 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import Script from "next/script";
 
-
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

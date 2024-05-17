@@ -48,8 +48,7 @@ export default function About() {
             <p className="text-paragraph-color mb-4 text-justify tracking-tighter">
               N'hésitez pas à explorer mon portfolio pour en savoir plus sur mes
               compétences et la manière dont je peux vous aider à optimiser
-              votre temps et vos ressources. Je suis impatiente de collaborer
-              avec vous et de contribuer au succès de votre entreprise.
+              votre temps et vos ressources. A bientôt.
             </p>
           </div>
         </div>
