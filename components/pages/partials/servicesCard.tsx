@@ -2,11 +2,6 @@
 import useEmblaCarousel from "embla-carousel-react";
 import React, { useCallback } from "react";
 import Autoplay from "embla-carousel-autoplay";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowAltCircleLeft,
-  faArrowAltCircleRight
-} from "@fortawesome/free-solid-svg-icons";
 
 export default function ServicesCard() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
