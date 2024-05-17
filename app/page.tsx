@@ -8,49 +8,54 @@ config.autoAddCss = false;
 
 export default function Main() {
   return (
-    <div className="container m-0 p-0 ">
-      <main className="w-screen bg-[#13284d] overflow-hidden relative">
-        <header className="relative">
-          <button className="menu-hamburger menu-button absolute right-0 top-0 p-[10px] ">
-            <span>Menu</span>
-          </button>
+    <>
+      <div className="container m-0 p-0 ">
+        <main className="w-screen bg-[#13284d] overflow-hidden relative">
+          <header className="relative">
+            <button className="menu-hamburger menu-button absolute right-0 top-0 p-[10px] ">
+              <span>Menu</span>
+            </button>
 
-          <nav className="pages-nav">
-            <div className="pages-nav__item">
-              <a className="link link--page tracking-tighter" href="#page-home">
-                Accueil
-              </a>
-            </div>
-            <div className="pages-nav__item">
-              <a className="link link--page " href="#page-about">
-                A propos
-              </a>
-            </div>
-            <div className="pages-nav__item">
-              <a
-                className="link link--page tracking-tighter"
-                href="#page-services"
-              >
-                Services
-              </a>
-            </div>
-            <div className="pages-nav__item">
-              <a
-                className="link link--page tracking-tighter"
-                href="#page-contact"
-              >
-                Contacts
-              </a>
-            </div>
-          </nav>
-        </header>
-        <div className="pages-stack ">
-          <Home />
-          <About />
-          <Services />
-          <Contact />
-        </div>
-      </main>
-    </div>
+            <nav className="pages-nav">
+              <div className="pages-nav__item">
+                <a
+                  className="link link--page tracking-tighter"
+                  href="#page-home"
+                >
+                  Accueil
+                </a>
+              </div>
+              <div className="pages-nav__item">
+                <a className="link link--page " href="#page-about">
+                  A propos
+                </a>
+              </div>
+              <div className="pages-nav__item">
+                <a
+                  className="link link--page tracking-tighter"
+                  href="#page-services"
+                >
+                  Services
+                </a>
+              </div>
+              <div className="pages-nav__item">
+                <a
+                  className="link link--page tracking-tighter"
+                  href="#page-contact"
+                >
+                  Contacts
+                </a>
+              </div>
+            </nav>
+          </header>
+          <div className="pages-stack ">
+            <Home />
+            <About />
+            <Services />
+            <Contact />
+          </div>
+        </main>
+      </div>
+    </>
   );
 }
