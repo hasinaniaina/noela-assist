@@ -34,7 +34,7 @@ export default function ServicesCard() {
               </div>
               <div className="services-description">
                 <ul className="text-[.9rem] font-thin text-[#000000] h-[100%]">
-                  <li>Gestion de l'agenda et des rendez-vous.</li>
+                  <li>Gestion de l&apos;agenda et des rendez-vous.</li>
                   <li>Traitement des e-mails et filtrage des priorités.</li>
                   <li>Création et mise en forme de documents</li>
                   <li>Gestion de la correspondance.</li>
@@ -63,7 +63,7 @@ export default function ServicesCard() {
                   <li>Gestion de la base de données clients</li>
                   <li>Suivi des clients et relances</li>
                   <li>Gestion des réseaux sociaux et du service client en ligne</li>
-                  <li>Organisation d'événements et de webinaires</li>
+                  <li>Organisation d&apos;événements et de webinaires</li>
                 </ul>
               </div>
             </div>
