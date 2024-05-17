@@ -1,16 +1,25 @@
+"use client";
 import About from "@/components/pages/about";
 import Contact from "@/components/pages/contact";
 import Home from "@/components/pages/home";
 import Services from "@/components/pages/services";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
+import { useEffect, useState } from "react";
 config.autoAddCss = false;
 
 export default function Main() {
+  const [isShow, setIsShow] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+        setIsShow(true);
+    }, 1000);
+  }, [])
   return (
     <>
-      <div className="container m-0 p-0 ">
-        <main className="w-screen bg-[#13284d] overflow-hidden relative">
+      <div className={"container m-0 p-0 w-screen overflow-hidden max-w-[100vw] " + (isShow ? "" : "hidden")}>
+        <main className=" bg-[#13284d]  relative">
           <header className="relative">
             <button className="menu-hamburger menu-button absolute right-0 top-0 p-[10px] ">
               <span>Menu</span>

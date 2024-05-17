@@ -7,9 +7,10 @@ export default function Mask() {
   gsap.registerPlugin(useGSAP);
   useGSAP(() => {
     const tl = gsap.timeline();
-    tl.fromTo("#logo",{opacity: 1}, { opacity: 0 })
+    tl.fromTo("#logo",{opacity: 1}, { opacity: 0, ease: "rough", duration: 1.5 })
     .to("#mask-left", {y: "100%", ease: "rough", duration: 1})
     .to("#mask-right", {y: "-100%", ease: "rough", duration: 1})
+    .to("#mask", {display: "none"})
   });
 
   return (
