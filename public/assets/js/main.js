@@ -11,21 +11,6 @@
 (function (window) {
   "use strict";
 
-  if(document.readyState === "complete") {
-    const logo = document.getElementById("logo");
-    const maskLeft = document.getElementById("mask-left");
-    const maskRight = document.getElementById("mask-right");
-    logo.classList.add("logo-fadeOut");
-
-    setTimeout(() => {
-      maskLeft.classList.add("mask-left-fadeOut");
-      setTimeout(() => {
-        maskRight.classList.add("mask-right-fadeOut");
-      }, 500);
-    }, 1000);
-  }
-
-
   var support = { transitions: Modernizr.csstransitions },
     // transition end event name
     transEndEventNames = {

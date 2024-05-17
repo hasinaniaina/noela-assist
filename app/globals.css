@@ -212,6 +212,7 @@ html.js,
   border: none;
   outline: none;
   background: #e1c1b3;
+  z-index: 10;
 }
 
 .no-js .menu-button {
@@ -461,52 +462,5 @@ input:-webkit-autofill:active {
   flex: 0 0 var(--slide-size);  
   min-width: 0;
   padding-left: var(--slide-spacing);
-}
-
-.mask-left-fadeOut {
-  animation: up .5s ease-out forwards ;
-}
-
-
-.mask-right-fadeOut {
-  animation: down .5s ease-out forwards ;
-}
-
-
-.logo-fadeOut {
-  opacity: 1;
-  animation: fadeOut 1s ease-out forwards ;
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-
-@keyframes up {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-
-@keyframes down {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(100%);
-  }
 }
 
