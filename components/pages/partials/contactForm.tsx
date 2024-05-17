@@ -50,7 +50,7 @@ export default function ContactForm() {
     if (!response.success) {
       handleMessage("Oopss!", response.error.message, "destructive");
     } else {
-      handleMessage("Success", "Email sent...", "default");
+      handleMessage("Success", "Email envoyé...", "default");
     }
 
     setIsSend(false);
