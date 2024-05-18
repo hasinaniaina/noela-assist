@@ -19,7 +19,7 @@ export default function Contact() {
         <div className="content flex flex-col justify-center h-screen p-10">
           <div className="section-title w-fit">
             <h2 className="text-titleH2 text-custom-blue font-bold inline-block tracking-[-3px]">
-              Qu&apos;attendez-vous, Contactez-moi!
+              Qu&apos;attendez-vous? Contactez-moi!
             </h2>
             <div className="title-underline"></div>
           </div>
@@ -47,7 +47,7 @@ export default function Contact() {
                   <FontAwesomeIcon icon={faEnvelope} />
                 </div>
                 <div className="text text-[#737373] tracking-tighter">
-                  <p>noelarakotonindrina@gmail.com</p>
+                  <p>marienoelavassist@gmail.com</p>
                 </div>
               </div>
             </div>
