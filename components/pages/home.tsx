@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
           <h2 className="virtual-assistant md:text-titleH2 sm:text-responsiveSmTitleH2 font-light mb-8">Votre Assistante Virtuelle</h2>
           <Link
-            href=""
+            href="https://drive.google.com/file/d/1TbMySIIU3plXw-mM9EquHStjj6BgZc7f/view?usp=drive_link"
             className="w-fit px-[2rem] py-[.5rem] rounded-sm text-white sm:text-[.7rem] md:text-[1rem]  font-bold transition ease-in-out delay-150 bg-custom-marron  hover:scale-105 hover:bg-custom-hoverMarron duration-200 text-center"
           >
             Télécharger CV
