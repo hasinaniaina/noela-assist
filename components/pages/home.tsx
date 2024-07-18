@@ -26,9 +26,9 @@ export default function Home() {
             Télécharger CV
           </Link>
           <div className="social-media flex flex-row absolute right-8 bottom-4">
-            <Link href=""><img src="assets/images/linkedin.png" alt="linkedin" className="w-[40px] mr-[1rem] hover:scale-105 " /></Link>
-            <Link href=""><img src="assets/images/instagram.png" alt="instagram" className="w-[40px] mr-[1rem]  hover:scale-105 " /></Link>
-            <Link href=""><img src="assets/images/facebook.png" alt="facebook" className="w-[40px] hover:scale-105 "/></Link>
+            <Link href="https://www.linkedin.com/in/marienoëla"><img src="assets/images/linkedin.png" alt="linkedin" className="w-[40px] mr-[1rem] hover:scale-105 " /></Link>
+            <Link href="https://www.instagram.com/marienoelavassist"><img src="assets/images/instagram.png" alt="instagram" className="w-[40px] mr-[1rem]  hover:scale-105 " /></Link>
+            <Link href="https://web.facebook.com/profile.php?id=61557828148502"><img src="assets/images/facebook.png" alt="facebook" className="w-[40px] hover:scale-105 "/></Link>
           </div>
         </div>
       </div>
